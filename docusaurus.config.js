@@ -64,10 +64,11 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "My Site",
+        title: "Chaca Docs",
         logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
+          alt: "Chaca Docs",
+          src: "img/logo.png",
+          style: { "margin-right": "8px" },
         },
         items: [
           {
@@ -78,9 +79,9 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
             position: "right",
+            type: "html",
+            value: "<button>Github</button>",
           },
         ],
       },
