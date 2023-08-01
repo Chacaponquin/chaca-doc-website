@@ -1,5 +1,32 @@
 @import url("./color.css");
 
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar_button {
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  padding: 0.3rem 1.3rem;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  gap: 0 8px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+.navbar_button:hover {
+  background-color: black;
+  color: white;
+  stroke: white;
+  fill: white;
+}
+
 .button-primary {
   border-radius: 9999px;
   padding: 0.4rem 2rem;

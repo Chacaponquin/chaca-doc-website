@@ -1,0 +1,13 @@
+.adventages {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.adventage_section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  padding: 2rem 0;
+}

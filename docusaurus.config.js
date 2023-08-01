@@ -68,7 +68,7 @@ const config = {
         logo: {
           alt: "Chaca Docs",
           src: "img/logo.png",
-          style: { "margin-right": "8px" },
+          style: { marginRight: "8px" },
         },
         items: [
           {
@@ -81,7 +81,7 @@ const config = {
           {
             position: "right",
             type: "html",
-            value: "<button>Github</button>",
+            value: `<a href="https://github.com/Chacaponquin/chaca"><button class='navbar_button'><img src='img/github.svg' alt='github logo'/><p>Github</p></button></a>`,
           },
         ],
       },

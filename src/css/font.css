@@ -1,4 +1,24 @@
 @font-face {
+  font-family: "JetBrains Bold";
+  src: url("/static/font/jet_brain/JetBrainsMono-Bold.woff2");
+}
+
+@font-face {
+  font-family: "JetBrains Medium";
+  src: url("/static/font/jet_brain/JetBrainsMono-Medium.woff2");
+}
+
+@font-face {
+  font-family: "JetBrains Italic";
+  src: url("/static/font/jet_brain/JetBrainsMono-Italic.woff2");
+}
+
+@font-face {
+  font-family: "JetBrains Regular";
+  src: url("/static/font/jet_brain/JetBrainsMono-Regular.woff2");
+}
+
+@font-face {
   font-family: "Poppins Light";
   src: url("/static/font/poppins/Poppins-Light.ttf");
 }
@@ -36,6 +56,10 @@
   font-family: "Poppins Extra-Bold";
 }
 
+.font-code * {
+  font-family: "JetBrains Bold";
+}
+
 * {
   font-family: "Poppins Medium";
   margin: 0;
@@ -50,6 +74,7 @@ h4,
 h5,
 h6 {
   margin-bottom: 0;
+  font-family: "Poppins Bold" !important;
 }
 
 p {
