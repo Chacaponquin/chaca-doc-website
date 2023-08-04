@@ -81,7 +81,7 @@ const config = {
           {
             position: "right",
             type: "html",
-            value: `<a href="https://github.com/Chacaponquin/chaca"><button class='navbar_button'><img src='img/github.svg' alt='github logo'/><p>Github</p></button></a>`,
+            value: `<a href="https://github.com/Chacaponquin/chaca"><button class='navbar_button'><p>Github</p></button></a>`,
           },
         ],
       },
