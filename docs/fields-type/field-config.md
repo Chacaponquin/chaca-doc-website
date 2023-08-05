@@ -32,12 +32,12 @@ All field types can be configured except: **[key field](./key)**, **[sequence fi
 Indicates the field type
 
 ```js
-type: schemas.id.uuid()
-type: chaca.ref('User.id')
-type: chaca.enum([...values])
+type: schemas.id.uuid();
+type: chaca.ref("User.id");
+type: chaca.enum([...values]);
 ```
 
-### `isArray` (optional)
+### `isArray`
 
 Indicates if the field is an array of values of the the selected type
 

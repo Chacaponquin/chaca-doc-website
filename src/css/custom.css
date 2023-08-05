@@ -38,3 +38,7 @@
 .markdown-image img {
   width: 300px;
 }
+
+.markdown-image video {
+  width: 400px;
+}

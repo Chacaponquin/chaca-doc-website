@@ -26,6 +26,7 @@ If you're using npm, pnpm or Yarn to install Chaca, we support:
 - [`dataType`](../schemas/data_type)
 - [`finance`](../schemas/finance)
 - [`date`](../schemas/date)
+- [`color`](../schemas/color)
 - [`animal`](../schemas/animal)
 - [`id`](../schemas/id)
 - [`image`](../schemas/image)
