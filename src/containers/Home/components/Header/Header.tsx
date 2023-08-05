@@ -6,6 +6,7 @@ import { ContentSection } from "../../shared/components";
 import { useHeader } from "./hooks";
 
 import "./header.css";
+import { Copy } from "@site/src/modules/app/modules/icon/components";
 
 export default function Header() {
   const { COMMAND_TEXT, handleClickCopyCommand } = useHeader();
@@ -37,7 +38,7 @@ export default function Header() {
               <p>{COMMAND_TEXT}</p>
 
               <button onClick={handleClickCopyCommand}>
-                <img src="/img/copy.svg" alt="copy icon" />
+                <Copy />
               </button>
             </div>
           </div>

@@ -50,9 +50,9 @@
 
 .command_div p {
   margin-bottom: 0;
+  font-size: 1.1rem;
 }
 
-.command_div img {
-  width: 22px;
+.command_div button {
   transform: translateY(1.5px);
 }
