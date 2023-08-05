@@ -1,11 +1,34 @@
 import React from "react";
+import { useExport } from "./hooks";
+
+import "./export.css";
 
 export default function Export() {
+  const { EXTENSIONS } = useExport();
+
   return (
     <section className="adventage_section">
-      <div></div>
+      <div className="export_extensions">
+        {EXTENSIONS.map((ext, i) => (
+          <div
+            key={i}
+            className="ext_card"
+            style={{
+              border: `2px solid ${ext.color}`,
+            }}
+          >
+            <div
+              className="ext_background"
+              style={{
+                backgroundColor: `${ext.color}`,
+              }}
+            ></div>
+            <img src={ext.image.src} alt={ext.image.alt} />
+          </div>
+        ))}
+      </div>
 
-      <div>
+      <div className="export_test">
         <h1>Export your data in different formats</h1>
 
         <p>
