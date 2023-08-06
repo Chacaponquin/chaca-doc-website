@@ -41,7 +41,7 @@
 
 .command_div {
   padding: 0.4rem 1.7rem;
-  border: 2px solid black;
+  border: 2px solid var(--gray_color);
   border-radius: 999px;
   display: flex;
   align-items: center;
@@ -51,8 +51,17 @@
 .command_div p {
   margin-bottom: 0;
   font-size: 1.1rem;
+  color: var(--gray_strong_color);
 }
 
 .command_div button {
   transform: translateY(1.5px);
+}
+
+.copy_button {
+  stroke: var(--gray_strong_color);
+}
+
+.check_button {
+  stroke: var(--green_color);
 }

@@ -4,12 +4,12 @@ import { LINKS } from "@site/src/modules/app/constants/LINKS";
 import { ButtonPrimary } from "@site/src/modules/shared/modules/button/components";
 import { ContentSection } from "../../shared/components";
 import { useHeader } from "./hooks";
+import { Copy, Check } from "@site/src/modules/app/modules/icon/components";
 
 import "./header.css";
-import { Copy } from "@site/src/modules/app/modules/icon/components";
 
 export default function Header() {
-  const { COMMAND_TEXT, handleClickCopyCommand } = useHeader();
+  const { COMMAND_TEXT, handleClickCopyCommand, showCheckCopy } = useHeader();
 
   return (
     <ContentSection>
@@ -37,9 +37,18 @@ export default function Header() {
             <div className="command_div font-code">
               <p>{COMMAND_TEXT}</p>
 
-              <button onClick={handleClickCopyCommand}>
-                <Copy />
-              </button>
+              {showCheckCopy ? (
+                <button className="check_button">
+                  <Check />
+                </button>
+              ) : (
+                <button
+                  className="copy_button"
+                  onClick={handleClickCopyCommand}
+                >
+                  <Copy />
+                </button>
+              )}
             </div>
           </div>
         </div>

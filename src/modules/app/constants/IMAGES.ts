@@ -8,5 +8,6 @@ export const APP_IMAGES = {
     POSTGRESQL: { src: "/img/export_ext/postgresql.png", alt: "postgresql" },
     TYPESCRIPT: { src: "/img/export_ext/ts.png", alt: "typescript" },
     JAVASCRIPT: { src: "/img/export_ext/js.png", alt: "javascript" },
+    YAML: { src: "/img/export_ext/yaml.png", alt: "yaml" },
   },
 } as const;

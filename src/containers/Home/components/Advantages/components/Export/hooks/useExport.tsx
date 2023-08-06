@@ -13,6 +13,7 @@ export function useExport() {
     { color: "#74b9ff", image: APP_IMAGES.EXPORT_EXTENSIONS.TYPESCRIPT },
     { color: "#0984e3", image: APP_IMAGES.EXPORT_EXTENSIONS.POSTGRESQL },
     { color: "#55efc4", image: APP_IMAGES.EXPORT_EXTENSIONS.CSV },
+    { color: "#ee5253", image: APP_IMAGES.EXPORT_EXTENSIONS.YAML },
   ];
 
   return { EXTENSIONS };

@@ -28,7 +28,7 @@ export default function Export() {
         ))}
       </div>
 
-      <div className="export_test">
+      <div className="adventage_text">
         <h1>Export your data in different formats</h1>
 
         <p>

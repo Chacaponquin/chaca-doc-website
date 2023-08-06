@@ -3,7 +3,7 @@ import React from "react";
 export default function Api() {
   return (
     <section className="adventage_section">
-      <div>
+      <div className="adventage_text">
         <h1>Use owr api rest</h1>
 
         <p>

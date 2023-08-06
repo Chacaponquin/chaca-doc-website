@@ -3,7 +3,7 @@ import React from "react";
 export default function Schemas() {
   return (
     <section className="adventage_section">
-      <div>
+      <div className="adventage_text">
         <h1>Create data schemas with your rules</h1>
 
         <p>
