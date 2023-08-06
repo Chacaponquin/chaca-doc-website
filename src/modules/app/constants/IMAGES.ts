@@ -10,4 +10,6 @@ export const APP_IMAGES = {
     JAVASCRIPT: { src: "/img/export_ext/js.png", alt: "javascript" },
     YAML: { src: "/img/export_ext/yaml.png", alt: "yaml" },
   },
+
+  SCHEMA_CODE: { src: "/img/schema_code.png", alt: "Chaca Schema Code" },
 } as const;

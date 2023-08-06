@@ -1,4 +1,7 @@
+import { APP_IMAGES } from "@site/src/modules/app/constants/IMAGES";
 import React from "react";
+
+import "./schemas.css";
 
 export default function Schemas() {
   return (
@@ -12,7 +15,13 @@ export default function Schemas() {
           veniam nostrum est. Doloremque, totam libero!
         </p>
       </div>
-      <div></div>
+
+      <div className="schema_code">
+        <img
+          src={APP_IMAGES.SCHEMA_CODE.src}
+          alt={APP_IMAGES.SCHEMA_CODE.alt}
+        />
+      </div>
     </section>
   );
 }
