@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const lightCodeTheme = require("prism-react-renderer/themes/nightOwl");
+const darkCodeTheme = require("prism-react-renderer/themes/vsDark");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -65,10 +65,10 @@ const config = {
         },
         items: [
           {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
+            to: "/docs/introduction/getting-started",
+            sidebarId: "docsSidebar",
             position: "left",
-            label: "Tutorial",
+            label: "Documentation",
           },
           {
             position: "right",
@@ -84,18 +84,14 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
+                label: "Documentation",
+                to: "/docs/introduction/getting-started",
               },
             ],
           },
           {
             title: "Community",
             items: [
-              {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
               {
                 label: "Discord",
                 href: "https://discordapp.com/invite/docusaurus",
@@ -110,12 +106,8 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/Chacaponquin/chaca",
               },
             ],
           },
