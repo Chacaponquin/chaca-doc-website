@@ -1,22 +1,14 @@
 .md_api_route {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  gap: 0 0.4rem;
-}
-
-.md_api_route .method {
-  text-transform: uppercase;
-  color: white;
-  background-color: var(--green_strong_color);
-  padding: 0.4rem 1.4rem;
-  border-radius: 4px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 0 0.4rem;
 }
 
 .md_api_route .url {
-  background-color: var(--dark_color);
-  color: white;
-  padding: 0.4rem 1.4rem;
-  border-radius: 4px;
-  width: 100%;
+    background-color: var(--dark_color);
+    color: white;
+    padding: 0.4rem 1.4rem;
+    border-radius: 4px;
+    width: 100%;
 }

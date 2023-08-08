@@ -1,22 +1,24 @@
-import React from "react";
+import React from 'react'
+import { HttpMethod } from '../../shared/components'
 
-import "./api_route.css";
+import './api_route.css'
 
 export default function ApiRoute({
-  children,
-  method,
-  url,
+    children,
+    method,
+    url,
 }: {
-  children: React.ReactNode;
-  method: string;
-  url: string;
+    children: React.ReactNode
+    method: string
+    url: string
 }) {
-  const showUrl = `http://localhost:8000/${url}`;
+    const showUrl = `http://localhost:8000/${url}`
 
-  return (
-    <div className="md_api_route">
-      <div className="method font-bold">{method}</div>
-      <p className="url">{showUrl}</p>
-    </div>
-  );
+    return (
+        <div className="md_api_route">
+            <HttpMethod method={method} />
+
+            <p className="url">{showUrl}</p>
+        </div>
+    )
 }

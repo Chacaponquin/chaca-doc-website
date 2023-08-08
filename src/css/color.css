@@ -1,11 +1,11 @@
 :root {
-  --primary_color: #7d5fff;
-  --second_color: #590ce8;
-  --third_color: #9900ff;
-  --green_color: #78e08f;
-  --green_strong_color: #2ecc71;
-  --gray_color: #b2bec3;
-  --gray_strong_color: #2d4665;
-
-  --dark_color: #011627;
+    --primary_color: #7d5fff;
+    --second_color: #590ce8;
+    --third_color: #9900ff;
+    --green_color: #78e08f;
+    --green_strong_color: #2ecc71;
+    --gray_color: #b2bec3;
+    --gray_strong_color: #2d4665;
+    --orange_color: #f0932b;
+    --dark_color: #011627;
 }

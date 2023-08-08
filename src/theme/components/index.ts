@@ -1,4 +1,13 @@
-import ApiRoute from "./ApiRoute/ApiRoute";
-import ApiRouteExample from "./ApiRouteExample/ApiRouteExample";
+import ApiRoute from './ApiRoute/ApiRoute'
+import ApiRouteExample from './ApiRouteExample/ApiRouteExample'
+import PostSchemaArrayOne from './PostSchemaArrayOne/PostSchemaArrayOne'
+import PostSchemaExampleOne from './PostSchemaExampleOne/PostSchemaExampleOne'
+import PostSchemaExampleSecond from './PostSchemaExampleSecond/PostSchemaExampleSecond'
 
-export { ApiRoute, ApiRouteExample };
+export default {
+    ApiRoute,
+    ApiRouteExample,
+    PostSchemaExampleOne,
+    PostSchemaExampleSecond,
+    PostSchemaArrayOne,
+}

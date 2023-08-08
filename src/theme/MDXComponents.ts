@@ -1,4 +1,7 @@
-import MDXComponents from "@theme-original/MDXComponents";
-import { ApiRoute, ApiRouteExample } from "./components";
+import MDXComponents from '@theme-original/MDXComponents'
+import CustomComponents from './components'
 
-export default { ...MDXComponents, ApiRoute, ApiRouteExample };
+export default {
+    ...MDXComponents,
+    ...CustomComponents,
+}
