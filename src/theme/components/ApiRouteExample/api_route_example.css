@@ -1,0 +1,37 @@
+.md_api_route_example {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: var(--dark_color);
+    color: white;
+    border-radius: 4px;
+    padding: 0.6rem 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.md_api_route_example .request {
+    display: flex;
+    align-items: center;
+    gap: 0 1rem;
+}
+
+.md_api_route_example .request div {
+    margin-bottom: 0 !important;
+}
+
+.md_api_route_example .request .method {
+    text-transform: uppercase;
+    color: white;
+    background-color: var(--green_strong_color);
+    padding: 0.4rem 1.4rem;
+    border-radius: 4px;
+}
+
+.md_api_route_example .request .url {
+    width: 100%;
+}
+
+.md_api_route_example .code code {
+    padding: 0 !important;
+    margin-top: 0.6rem;
+}
