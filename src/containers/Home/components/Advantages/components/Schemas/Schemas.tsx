@@ -16,7 +16,7 @@ export default function Schemas() {
         </p>
       </div>
 
-      <div className="schema_code">
+      <div className="schema_code adventage_asset_section">
         <img
           src={APP_IMAGES.SCHEMA_CODE.src}
           alt={APP_IMAGES.SCHEMA_CODE.alt}
