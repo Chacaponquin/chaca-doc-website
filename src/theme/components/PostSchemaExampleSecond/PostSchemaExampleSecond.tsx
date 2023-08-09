@@ -24,11 +24,9 @@ export default function PostSchemaExampleSecond() {
         id: 'id.uuid',
         age: 'dataType.integer<min=18;max=90>',
         password: {
-            fieldType: {
-                type: 'internet.password',
-                params: {
-                    len: 10,
-                },
+            fieldType: 'internet.password',
+            params: {
+                len: 10,
             },
         },
         posts: {
@@ -39,12 +37,10 @@ export default function PostSchemaExampleSecond() {
             },
         },
         socialMedia: {
-            fieldType: {
-                type: 'schema',
-                params: {
-                    facebook: 'internet.url',
-                    instagram: 'internet.url',
-                },
+            fieldType: 'schema',
+            params: {
+                facebook: 'internet.url',
+                instagram: 'internet.url',
             },
             posibleNull: 60,
         },

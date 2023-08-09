@@ -26,7 +26,7 @@ export default function ApiRouteExample({
 
     useEffect(() => {
         if (selectedOption === 'response') {
-            const c = beautify.js(JSON.stringify(code))
+            const c = beautify.js(JSON.stringify(code), {})
             setShowCode(c)
         } else if (selectedOption === 'body') {
             const c = beautify.js(JSON.stringify(body))
