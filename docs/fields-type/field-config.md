@@ -3,21 +3,21 @@
 You can define the configuration of the schema fields in two ways:
 
 ```js
-import { chaca, schemas } from "chaca";
+import { chaca, schemas } from 'chaca'
 
 const mySchema = chaca.schema({
-  id: schemas.id.uuid(),
-});
+   id: schemas.id.uuid(),
+})
 
 // or
 
 const mySchema = chaca.schema({
-  users: {
-    type: schemas.id.uuid(),
-    isArray: { min: 1, max: 100 },
-    posibleNull: 20,
-  },
-});
+   users: {
+      type: schemas.id.uuid(),
+      isArray: { min: 1, max: 100 },
+      posibleNull: 20,
+   },
+})
 ```
 
 ## Config
@@ -32,9 +32,9 @@ All field types can be configured except: **[key field](./key)**, **[sequence fi
 Indicates the field type
 
 ```js
-type: schemas.id.uuid();
-type: chaca.ref("User.id");
-type: chaca.enum([...values]);
+type: schemas.id.uuid()
+type: chaca.ref('User.id')
+type: chaca.enum([...values])
 ```
 
 ### `isArray`
@@ -52,8 +52,8 @@ isArray: 20 // The field would be an array with length 20
 Indicates the possibility that the field returns `null`
 
 ```js
-posibleNull: true; // the field has a 50% chance of being null
+posibleNull: true // the field has a 50% chance of being null
 
 //The number indicates de chance porcent
-posibleNull: 60; // the field has a 60% chance of being null
+posibleNull: 60 // the field has a 60% chance of being null
 ```

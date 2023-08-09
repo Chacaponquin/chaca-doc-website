@@ -4,11 +4,11 @@ Returns one of the values of a passed array
 
 ```js
 const schema = chaca.schema({
-  category: chaca.enum(["Horror", "Comedy", "Action", "Sport"]),
-  // rest fields
-});
+   category: chaca.enum(['Horror', 'Comedy', 'Action', 'Sport']),
+   // rest fields
+})
 
-const data = schema.generate(3);
+const data = schema.generate(3)
 
 // [{ category: "Horror" }, { category: "Sport" }, { category: "Action" }];
 ```

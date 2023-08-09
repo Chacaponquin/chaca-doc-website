@@ -1,15 +1,15 @@
-import React from "react";
+import React from 'react'
 
-import "./content_section.css";
+import './content_section.css'
 
 export default function ContentSection({
-  children,
+   children,
 }: {
-  children: React.ReactNode;
+   children: React.ReactNode
 }) {
-  return (
-    <section className="home_content_section_container">
-      <div className="home_content_section">{children}</div>
-    </section>
-  );
+   return (
+      <section className="home_content_section_container">
+         <div className="home_content_section">{children}</div>
+      </section>
+   )
 }

@@ -3,35 +3,35 @@
 ## `bicycle`
 
 ```js
-schemas.vehicle.bicycle().getValue(); // 'BMX Bicycle'
+schemas.vehicle.bicycle().getValue() // 'BMX Bicycle'
 ```
 
 ## `manufacturer`
 
 ```js
-schemas.vehicle.manufacturer().getValue(); // 'BMW'
+schemas.vehicle.manufacturer().getValue() // 'BMW'
 ```
 
 ## `vehicleModel`
 
 ```js
-schemas.vehicle.vehicleModel().getValue(); // 'Model S'
+schemas.vehicle.vehicleModel().getValue() // 'Model S'
 ```
 
 ## `vehicleType`
 
 ```js
-schemas.vehicle.vehicleType().getValue(); // 'Coupe'
+schemas.vehicle.vehicleType().getValue() // 'Coupe'
 ```
 
 ## `vehicle`
 
 ```js
-schemas.vehicle.vehicle().getValue(); // 'BMW Explorer'
+schemas.vehicle.vehicle().getValue() // 'BMW Explorer'
 ```
 
 ## `fuel`
 
 ```js
-schemas.vehicle.fuel().getValue(); // 'Diesel'
+schemas.vehicle.fuel().getValue() // 'Diesel'
 ```

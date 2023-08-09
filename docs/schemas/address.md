@@ -3,8 +3,8 @@
 ## `zipCode`
 
 ```js
-schemas.address.zipCode().getValue(); // '62581'
-schemas.address.zipCode().getValue({ format: "###" }); // '453'
+schemas.address.zipCode().getValue() // '62581'
+schemas.address.zipCode().getValue({ format: '###' }) // '453'
 ```
 
 | Argument | Description                            |
@@ -14,21 +14,21 @@ schemas.address.zipCode().getValue({ format: "###" }); // '453'
 ## `timeZone`
 
 ```js
-schemas.address.timeZone(); // Schema
-schemas.address.timeZone().getValue(); // "Asia/Magadan"
+schemas.address.timeZone() // Schema
+schemas.address.timeZone().getValue() // "Asia/Magadan"
 ```
 
 ## `cardinalDirection`
 
 ```js
-schemas.address.cardinalDirection().getValue(); // 'North'
+schemas.address.cardinalDirection().getValue() // 'North'
 ```
 
 ## `country`
 
 ```js
-schemas.address.country().getValue(); // 'Spain'
-schemas.address.country().getValue({ continent: "Asia" }); // 'China'
+schemas.address.country().getValue() // 'Spain'
+schemas.address.country().getValue({ continent: 'Asia' }) // 'China'
 ```
 
 | Argument  | Description                                                                                                                       |
@@ -38,5 +38,5 @@ schemas.address.country().getValue({ continent: "Asia" }); // 'China'
 ## `countryCode`
 
 ```js
-schemas.address.countryCode().getValue(); // 'CU'
+schemas.address.countryCode().getValue() // 'CU'
 ```

@@ -3,7 +3,7 @@
 ## `food`
 
 ```js
-schemas.image.food().getValue();
+schemas.image.food().getValue()
 ```
 
 <div class="markdown-image">
@@ -15,7 +15,7 @@ alt="Markdown Monster icon"
 ## `event`
 
 ```js
-schemas.image.event().getValue();
+schemas.image.event().getValue()
 ```
 
 <div class="markdown-image">
@@ -26,7 +26,7 @@ alt="Markdown Monster icon"
 ## `wallpaper`
 
 ```js
-schemas.image.wallpaper().getValue();
+schemas.image.wallpaper().getValue()
 ```
 
 <div class="markdown-image">
@@ -37,7 +37,7 @@ alt="Markdown Monster icon"
 ## `threeDimension`
 
 ```js
-schemas.image.threeDimension().getValue();
+schemas.image.threeDimension().getValue()
 ```
 
 <div class="markdown-image">
@@ -48,7 +48,7 @@ alt="Markdown Monster icon"
 ## `sport`
 
 ```js
-schemas.image.sport().getValue();
+schemas.image.sport().getValue()
 ```
 
 <div class="markdown-image">
@@ -58,7 +58,7 @@ alt="Markdown Monster icon" /></div>
 ## `animal`
 
 ```js
-schemas.image.animal().getValue();
+schemas.image.animal().getValue()
 ```
 
 <div class="markdown-image">
@@ -69,7 +69,7 @@ alt="Markdown Monster icon"
 ## `experimental`
 
 ```js
-schemas.image.experimental().getValue();
+schemas.image.experimental().getValue()
 ```
 
 <div class="markdown-image">
@@ -80,7 +80,7 @@ alt="Markdown Monster icon"
 ## `architecture`
 
 ```js
-schemas.image.architecture().getValue();
+schemas.image.architecture().getValue()
 ```
 
 <div class="markdown-image">
@@ -91,7 +91,7 @@ alt="Markdown Monster icon"
 ## `nature`
 
 ```js
-schemas.image.nature().getValue();
+schemas.image.nature().getValue()
 ```
 
 <div class="markdown-image">
@@ -102,7 +102,7 @@ alt="Markdown Monster icon"
 ## `fashion`
 
 ```js
-schemas.image.fashion().getValue();
+schemas.image.fashion().getValue()
 ```
 
 <div class="markdown-image">
@@ -113,7 +113,7 @@ alt="Markdown Monster icon"
 ## `film`
 
 ```js
-schemas.image.film().getValue();
+schemas.image.film().getValue()
 ```
 
 <div class="markdown-image">
@@ -124,7 +124,7 @@ alt="Markdown Monster icon"
 ## `health`
 
 ```js
-schemas.image.health().getValue();
+schemas.image.health().getValue()
 ```
 
 <div class="markdown-image">
@@ -135,7 +135,7 @@ alt="Markdown Monster icon"
 ## `people`
 
 ```js
-schemas.image.people().getValue();
+schemas.image.people().getValue()
 ```
 
 <div class="markdown-image">
@@ -146,7 +146,7 @@ alt="Markdown Monster icon"
 ## `street`
 
 ```js
-schemas.image.street().getValue();
+schemas.image.street().getValue()
 ```
 
 <div class="markdown-image">
@@ -157,7 +157,7 @@ alt="Markdown Monster icon"
 ## `spirituality`
 
 ```js
-schemas.image.spirituality().getValue();
+schemas.image.spirituality().getValue()
 ```
 
 <div class="markdown-image">
@@ -168,7 +168,7 @@ alt="Markdown Monster icon"
 ## `travel`
 
 ```js
-schemas.image.travel().getValue();
+schemas.image.travel().getValue()
 ```
 
 <div class="markdown-image">
@@ -179,7 +179,7 @@ alt="Markdown Monster icon"
 ## `art`
 
 ```js
-schemas.image.art().getValue();
+schemas.image.art().getValue()
 ```
 
 <div class="markdown-image">
@@ -190,7 +190,7 @@ alt="Markdown Monster icon"
 ## `history`
 
 ```js
-schemas.image.history().getValue();
+schemas.image.history().getValue()
 ```
 
 <div class="markdown-image">
@@ -201,7 +201,7 @@ alt="Markdown Monster icon"
 ## `animateAvatar`
 
 ```js
-schemas.image.animateAvatar().getValue();
+schemas.image.animateAvatar().getValue()
 ```
 
 <div class="markdown-image">

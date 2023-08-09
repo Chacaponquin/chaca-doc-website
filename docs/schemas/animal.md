@@ -3,89 +3,89 @@
 ## `dog`
 
 ```js
-schemas.animal.dog().getValue(); // 'Irish Water Spaniel'
+schemas.animal.dog().getValue() // 'Irish Water Spaniel'
 ```
 
 ## `bear`
 
 ```js
-schemas.animal.bear().getValue(); // 'Singapuria'
+schemas.animal.bear().getValue() // 'Singapuria'
 ```
 
 ## `bird`
 
 ```js
-schemas.animal.bird().getValue(); // 'Singapuria'
+schemas.animal.bird().getValue() // 'Singapuria'
 ```
 
 ## `cat`
 
 ```js
-schemas.animal.cat().getValue(); // 'Bengal'
+schemas.animal.cat().getValue() // 'Bengal'
 ```
 
 ## `cetacean`
 
 ```js
-schemas.animal.cetacean().getValue(); // 'Spinner Dolphin'
+schemas.animal.cetacean().getValue() // 'Spinner Dolphin'
 ```
 
 ## `cow`
 
 ```js
-schemas.animal.cow().getValue(); // 'Brava'
+schemas.animal.cow().getValue() // 'Brava'
 ```
 
 ## `crocodilia`
 
 ```js
-schemas.animal.crocodilia().getValue(); // 'Philippine Crocodile'
+schemas.animal.crocodilia().getValue() // 'Philippine Crocodile'
 ```
 
 ## `fish`
 
 ```js
-schemas.animal.fish().getValue(); // 'Mandarin fish'
+schemas.animal.fish().getValue() // 'Mandarin fish'
 ```
 
 ## `horse`
 
 ```js
-schemas.animal.horse().getValue(); // 'Swedish Warmblood'
+schemas.animal.horse().getValue() // 'Swedish Warmblood'
 ```
 
 ## `insect`
 
 ```js
-schemas.animal.insect().getValue(); // 'Pyramid ant'
+schemas.animal.insect().getValue() // 'Pyramid ant'
 ```
 
 ## `lion`
 
 ```js
-schemas.animal.lion().getValue(); // 'Northeast Congo Lion'
+schemas.animal.lion().getValue() // 'Northeast Congo Lion'
 ```
 
 ## `rabbit`
 
 ```js
-schemas.animal.rabbit().getValue(); // 'Florida White'
+schemas.animal.rabbit().getValue() // 'Florida White'
 ```
 
 ## `rodent`
 
 ```js
-schemas.animal.rodent().getValue(); // 'Cuscomys ashanika'
+schemas.animal.rodent().getValue() // 'Cuscomys ashanika'
 ```
 
 ## `snake`
 
 ```js
-schemas.animal.snake().getValue(); // 'Eyelash viper'
+schemas.animal.snake().getValue() // 'Eyelash viper'
 ```
 
 ## `animalType`
 
 ```js
-schemas.animal.animalType().getValue(); // 'Singapuria'
+schemas.animal.animalType().getValue() // 'Singapuria'
 ```

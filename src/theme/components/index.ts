@@ -5,9 +5,9 @@ import PostSchemaExampleOne from './PostSchemaExampleOne/PostSchemaExampleOne'
 import PostSchemaExampleSecond from './PostSchemaExampleSecond/PostSchemaExampleSecond'
 
 export default {
-    ApiRoute,
-    ApiRouteExample,
-    PostSchemaExampleOne,
-    PostSchemaExampleSecond,
-    PostSchemaArrayOne,
+   ApiRoute,
+   ApiRouteExample,
+   PostSchemaExampleOne,
+   PostSchemaExampleSecond,
+   PostSchemaArrayOne,
 }

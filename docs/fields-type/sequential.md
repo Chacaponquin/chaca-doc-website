@@ -4,11 +4,11 @@ Array of values that will be assigned according to the index of the document bei
 
 ```js
 const postSchema = chaca.schema({
-  category: chaca.sequential(["Horror", "Action", "Comedy", "Sport"]),
-  // rest fields
-});
+   category: chaca.sequential(['Horror', 'Action', 'Comedy', 'Sport']),
+   // rest fields
+})
 
-const data = postSchema.generate(4);
+const data = postSchema.generate(4)
 
 /*
 [
@@ -25,12 +25,12 @@ If you pass an array of values with a length less than the number of documents t
 
 ```js
 const postSchema = chaca.schema({
-  category: chaca.sequential(["Horror", "Action", "Comedy", "Sport"]),
-  // rest fields
-});
+   category: chaca.sequential(['Horror', 'Action', 'Comedy', 'Sport']),
+   // rest fields
+})
 
 // This will throw an exception because there are only 4 sequential values for 10 documents to generate.
-const data = postSchema.generate(10);
+const data = postSchema.generate(10)
 ```
 
 :::

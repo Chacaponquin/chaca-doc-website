@@ -3,32 +3,32 @@
 ## `jobLevel`
 
 ```js
-schemas.person.jobLevel().getValue(); // 'Investor'
+schemas.person.jobLevel().getValue() // 'Investor'
 ```
 
 ## `jobArea`
 
 ```js
-schemas.person.jobLevel().getValue(); // 'Supervisor'
+schemas.person.jobLevel().getValue() // 'Supervisor'
 ```
 
 ## `gender`
 
 ```js
-schemas.person.gender().getValue(); // 'Bigender'
+schemas.person.gender().getValue() // 'Bigender'
 ```
 
 ## `sex`
 
 ```js
-schemas.person.sex().getValue(); // 'Male'
+schemas.person.sex().getValue() // 'Male'
 ```
 
 ## `firstName`
 
 ```js
-schemas.person.firstName().getValue(); // 'Juan'
-schemas.person.firstName().getValue({ language: "en" }); // 'Leslie'
+schemas.person.firstName().getValue() // 'Juan'
+schemas.person.firstName().getValue({ language: 'en' }) // 'Leslie'
 ```
 
 | Argument | Description                            |
@@ -39,7 +39,7 @@ schemas.person.firstName().getValue({ language: "en" }); // 'Leslie'
 ## `lastName`
 
 ```js
-schemas.person.lastName().getValue(); // 'Scott'
+schemas.person.lastName().getValue() // 'Scott'
 ```
 
 | Argument | Description                      |
@@ -49,7 +49,7 @@ schemas.person.lastName().getValue(); // 'Scott'
 ## `fullName`
 
 ```js
-schemas.person.fullName().getValue(); // 'Juan Rodriguez Perez'
+schemas.person.fullName().getValue() // 'Juan Rodriguez Perez'
 ```
 
 | Argument | Description                            |
@@ -60,7 +60,7 @@ schemas.person.fullName().getValue(); // 'Juan Rodriguez Perez'
 ## `prefix`
 
 ```js
-schemas.person.prefix().getValue(); // 'Ms.'
+schemas.person.prefix().getValue() // 'Ms.'
 ```
 
 | Argument | Description                           |

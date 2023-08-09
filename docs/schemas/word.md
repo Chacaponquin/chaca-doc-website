@@ -3,7 +3,7 @@
 ## `adjective`
 
 ```js
-schemas.word.adjective().getValue(); // 'clever'
+schemas.word.adjective().getValue() // 'clever'
 ```
 
 | Argument | Description                               |
@@ -13,7 +13,7 @@ schemas.word.adjective().getValue(); // 'clever'
 ## `conjuction`
 
 ```js
-schemas.word.conjuction().getValue(); // 'clever'
+schemas.word.conjuction().getValue() // 'clever'
 ```
 
 | Argument | Description                               |
@@ -23,7 +23,7 @@ schemas.word.conjuction().getValue(); // 'clever'
 ## `interjection`
 
 ```js
-schemas.word.interjection().getValue(); // 'clever'
+schemas.word.interjection().getValue() // 'clever'
 ```
 
 | Argument | Description                               |
@@ -33,7 +33,7 @@ schemas.word.interjection().getValue(); // 'clever'
 ## `preposition`
 
 ```js
-schemas.word.preposition().getValue(); // 'clever'
+schemas.word.preposition().getValue() // 'clever'
 ```
 
 | Argument | Description                               |
@@ -43,7 +43,7 @@ schemas.word.preposition().getValue(); // 'clever'
 ## `adverb`
 
 ```js
-schemas.word.adverb().getValue(); // 'clever'
+schemas.word.adverb().getValue() // 'clever'
 ```
 
 | Argument | Description                               |
@@ -53,7 +53,7 @@ schemas.word.adverb().getValue(); // 'clever'
 ## `verb`
 
 ```js
-schemas.word.verb().getValue(); // 'clever'
+schemas.word.verb().getValue() // 'clever'
 ```
 
 | Argument | Description                               |
@@ -63,7 +63,7 @@ schemas.word.verb().getValue(); // 'clever'
 ## `noun`
 
 ```js
-schemas.word.noun().getValue(); // 'clever'
+schemas.word.noun().getValue() // 'clever'
 ```
 
 | Argument | Description                               |

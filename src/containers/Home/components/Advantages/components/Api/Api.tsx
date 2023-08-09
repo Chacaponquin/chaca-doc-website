@@ -6,27 +6,23 @@ import { LinkButton } from '../../shared/components'
 import { LINKS } from '@site/src/modules/app/constants/LINKS'
 
 export default function Api() {
-    return (
-        <section className="adventage_section">
-            <div className="adventage_text">
-                <h1>Use owr api rest</h1>
+   return (
+      <section className="adventage_section">
+         <div className="adventage_text">
+            <h1>Use owr api rest</h1>
 
-                <p>
-                    Don't worry, if you want to use our features without having
-                    to download our npm package you can Use our
-                    developer-friendly REST API to create schemas and with your
-                    rules
-                </p>
+            <p>
+               Don't worry, if you want to use our features without having to
+               download our npm package you can Use our developer-friendly REST
+               API to create schemas and with your rules
+            </p>
 
-                <LinkButton link={LINKS.API_DOC} text={'See Api docs'} />
-            </div>
+            <LinkButton link={LINKS.API_DOC} text={'See Api docs'} />
+         </div>
 
-            <div className="api_adventage_image adventage_asset_section">
-                <img
-                    src={APP_IMAGES.API_CODE.src}
-                    alt={APP_IMAGES.API_CODE.alt}
-                />
-            </div>
-        </section>
-    )
+         <div className="api_adventage_image adventage_asset_section">
+            <img src={APP_IMAGES.API_CODE.src} alt={APP_IMAGES.API_CODE.alt} />
+         </div>
+      </section>
+   )
 }

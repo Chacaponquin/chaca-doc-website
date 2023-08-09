@@ -1,14 +1,26 @@
 .md_api_route {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    gap: 0 0.4rem;
+   display: flex;
+   align-items: center;
+   width: 100%;
+   gap: 0 0.4rem;
 }
 
 .md_api_route .url {
-    background-color: var(--dark_color);
-    color: white;
-    padding: 0.4rem 1.4rem;
-    border-radius: 4px;
-    width: 100%;
+   background-color: var(--dark_color);
+   color: white;
+   padding: 0.5rem 1.4rem;
+   border-radius: 4px;
+   width: 100%;
+}
+
+.md_api_route .url code {
+   padding: 0;
+}
+
+.md_api_route .url > div {
+   margin-bottom: 0;
+}
+
+.md_api_route .url button {
+   transform: translateX(20px) translateY(-12px);
 }

@@ -10,9 +10,9 @@ These are only useful to indicate the fields that can be referenced
 
 ```js
 const mySchema = chaca.schema({
-  id: chaca.key(schemas.id.uuid()),
-  // rest fields
-});
+   id: chaca.key(schemas.id.uuid()),
+   // rest fields
+})
 ```
 
 In the previous code you can see that the schema will have the `id` field as primary key.

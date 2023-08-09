@@ -1,50 +1,50 @@
 .md_api_route_example {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    background-color: var(--dark_color);
-    color: white;
-    border-radius: 4px;
-    padding: 0.6rem 1.4rem;
-    margin-bottom: 1rem;
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+   background-color: var(--dark_color);
+   color: white;
+   border-radius: 4px;
+   padding: 0.6rem 1.4rem;
+   margin-bottom: 1rem;
 }
 
 .md_api_route_example .request {
-    display: flex;
-    align-items: center;
-    gap: 0 1rem;
+   display: flex;
+   align-items: center;
+   gap: 0 1rem;
 }
 
 .md_api_route_example .request div {
-    margin-bottom: 0 !important;
+   margin-bottom: 0 !important;
 }
 
 .md_api_route_example .request .url {
-    width: 100%;
+   width: 100%;
 }
 
 .md_api_route_example .code code {
-    padding: 0 !important;
-    margin-top: 0.6rem;
+   padding: 0 !important;
+   margin-top: 0.6rem;
 }
 
 .md_api_route_example .view-options {
-    color: white;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    gap: 0 1rem;
+   color: white;
+   display: flex;
+   align-items: center;
+   width: 100%;
+   gap: 0 1rem;
 }
 
 .md_api_route_example .view-options > button {
-    padding: 0.5rem 1rem;
-    color: white;
-    font-size: 1rem;
-    width: 100%;
-    border-radius: 3px;
+   padding: 0.5rem 1rem;
+   color: white;
+   font-size: 1rem;
+   width: 100%;
+   border-radius: 3px;
 }
 
 .md_api_route_example .view-options > button.selected {
-    color: black;
-    background-color: white;
+   color: black;
+   background-color: white;
 }

@@ -1,11 +1,13 @@
 .home_content_section_container {
-  display: flex;
-  justify-content: center;
-  width: 100%;
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   padding: 0 1.3rem;
+   box-sizing: border-box;
 }
 
 .home_content_section {
-  display: flex;
-  width: 100%;
-  max-width: 1200px;
+   display: flex;
+   width: 100%;
+   max-width: 1200px;
 }

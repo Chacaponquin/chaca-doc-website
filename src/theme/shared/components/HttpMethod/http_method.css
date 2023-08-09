@@ -1,14 +1,14 @@
 div.http_method {
-    text-transform: uppercase;
-    color: white;
-    padding: 0.4rem 1.4rem;
-    border-radius: 4px;
+   text-transform: uppercase;
+   color: white;
+   padding: 0.4rem 1.4rem;
+   border-radius: 4px;
 }
 
 div.http_method.get {
-    background-color: var(--green_strong_color);
+   background-color: var(--green_strong_color);
 }
 
 div.http_method.post {
-    background-color: var(--orange_color);
+   background-color: var(--orange_color);
 }

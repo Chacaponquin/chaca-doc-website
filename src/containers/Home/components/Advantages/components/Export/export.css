@@ -1,36 +1,36 @@
 .export_code img {
-    border-radius: 4px;
+   border-radius: 4px;
 }
 
 .export_extensions {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.2rem;
-    margin-top: 1rem;
-    margin-bottom: 0.4rem;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 1.2rem;
+   margin-top: 1rem;
+   margin-bottom: 0.4rem;
 }
 
 .ext_card {
-    width: 60px;
-    height: 60px;
-    border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+   width: 60px;
+   height: 60px;
+   border-radius: 4px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
 }
 
 .ext_card img {
-    width: 35px;
-    height: 35px;
-    object-fit: contain;
-    z-index: 10;
+   width: 35px;
+   height: 35px;
+   object-fit: contain;
+   z-index: 10;
 }
 
 .ext_background {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0.5;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   opacity: 0.5;
 }

@@ -3,8 +3,8 @@
 ## `fileName`
 
 ```js
-schemas.system.fileName().getValue(); // 'academy.png'
-schemas.system.fileName().getValue({ ext: "gif" }); // 'academy_button_school.gif'
+schemas.system.fileName().getValue() // 'academy.png'
+schemas.system.fileName().getValue({ ext: 'gif' }) // 'academy_button_school.gif'
 ```
 
 | Argument | Description           |
@@ -14,23 +14,23 @@ schemas.system.fileName().getValue({ ext: "gif" }); // 'academy_button_school.gi
 ## `mimeType`
 
 ```js
-schemas.system.mimeType().getValue(); // 'video/mpeg'
+schemas.system.mimeType().getValue() // 'video/mpeg'
 ```
 
 ## `fileExt`
 
 ```js
-schemas.system.fileExt().getValue(); // 'mp4'
+schemas.system.fileExt().getValue() // 'mp4'
 ```
 
 ## `directoryPath`
 
 ```js
-schemas.system.directoryPath().getValue(); // 'user/files/videos'
+schemas.system.directoryPath().getValue() // 'user/files/videos'
 ```
 
 ## `filePath`
 
 ```js
-schemas.system.filePath().getValue(); // 'user/files/videos/academy.mp4'
+schemas.system.filePath().getValue() // 'user/files/videos/academy.mp4'
 ```

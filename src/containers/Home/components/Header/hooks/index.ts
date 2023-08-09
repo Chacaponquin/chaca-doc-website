@@ -1,3 +1,3 @@
-import { useHeader } from "./useHeader";
+import { useHeader } from './useHeader'
 
-export { useHeader };
+export { useHeader }

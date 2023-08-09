@@ -1,3 +1,3 @@
-import ContentSection from "./ContentSection/ContentSection";
+import ContentSection from './ContentSection/ContentSection'
 
-export { ContentSection };
+export { ContentSection }

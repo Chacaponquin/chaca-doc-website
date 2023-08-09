@@ -1,74 +1,74 @@
 @font-face {
-    font-family: 'JetBrains Bold';
-    src: url('/static/font/jet_brain/JetBrainsMono-Bold.woff2');
+   font-family: 'JetBrains Bold';
+   src: url('/static/font/jet_brain/JetBrainsMono-Bold.woff2');
 }
 
 @font-face {
-    font-family: 'JetBrains Medium';
-    src: url('/static/font/jet_brain/JetBrainsMono-Medium.woff2');
+   font-family: 'JetBrains Medium';
+   src: url('/static/font/jet_brain/JetBrainsMono-Medium.woff2');
 }
 
 @font-face {
-    font-family: 'JetBrains Italic';
-    src: url('/static/font/jet_brain/JetBrainsMono-Italic.woff2');
+   font-family: 'JetBrains Italic';
+   src: url('/static/font/jet_brain/JetBrainsMono-Italic.woff2');
 }
 
 @font-face {
-    font-family: 'JetBrains Regular';
-    src: url('/static/font/jet_brain/JetBrainsMono-Regular.woff2');
+   font-family: 'JetBrains Regular';
+   src: url('/static/font/jet_brain/JetBrainsMono-Regular.woff2');
 }
 
 @font-face {
-    font-family: 'Poppins Light';
-    src: url('/static/font/poppins/Poppins-Light.ttf');
+   font-family: 'Poppins Light';
+   src: url('/static/font/poppins/Poppins-Light.ttf');
 }
 
 @font-face {
-    font-family: 'Poppins Black';
-    src: url('/static/font/poppins/Poppins-Black.ttf');
+   font-family: 'Poppins Black';
+   src: url('/static/font/poppins/Poppins-Black.ttf');
 }
 
 @font-face {
-    font-family: 'Poppins Italic';
-    src: url('/static/font/poppins/Poppins-Italic.ttf');
+   font-family: 'Poppins Italic';
+   src: url('/static/font/poppins/Poppins-Italic.ttf');
 }
 
 @font-face {
-    font-family: 'Poppins Bold';
-    src: url('/static/font/poppins/Poppins-Bold.ttf');
+   font-family: 'Poppins Bold';
+   src: url('/static/font/poppins/Poppins-Bold.ttf');
 }
 
 @font-face {
-    font-family: 'Poppins Extra-Bold';
-    src: url('/static/font/poppins/Poppins-ExtraBold.ttf');
+   font-family: 'Poppins Extra-Bold';
+   src: url('/static/font/poppins/Poppins-ExtraBold.ttf');
 }
 
 @font-face {
-    font-family: 'Poppins Medium';
-    src: url('/static/font/poppins/Poppins-Medium.ttf');
+   font-family: 'Poppins Medium';
+   src: url('/static/font/poppins/Poppins-Medium.ttf');
 }
 
 .font-bold {
-    font-family: 'Poppins Bold';
+   font-family: 'Poppins Bold';
 }
 
 .font-extra-bold {
-    font-family: 'Poppins Extra-Bold';
+   font-family: 'Poppins Extra-Bold';
 }
 
 .font-semi-bold {
-    font-family: 'Poppins Regular';
+   font-family: 'Poppins Regular';
 }
 
 .font-code * {
-    font-family: 'JetBrains Bold';
+   font-family: 'JetBrains Bold';
 }
 
 * {
-    font-family: 'Poppins Medium';
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
+   font-family: 'Poppins Medium';
+   margin: 0;
+   box-sizing: border-box;
+   padding: 0;
 }
 
 h1,
@@ -77,10 +77,10 @@ h3,
 h4,
 h5,
 h6 {
-    margin-bottom: 0;
-    font-family: 'Poppins Bold' !important;
+   margin-bottom: 0;
+   font-family: 'Poppins Bold' !important;
 }
 
 p {
-    margin-bottom: 0;
+   margin-bottom: 0;
 }
