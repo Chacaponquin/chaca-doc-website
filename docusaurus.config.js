@@ -10,7 +10,7 @@ const config = {
    tagline: 'Dinosaurs are cool',
    favicon: 'img/favicon.ico',
 
-   url: 'https://chaca-doc-website.vercel.app',
+   url: 'https://chaca-doc.vercel.app/',
    // Set the /<baseUrl>/ pathname under which your site is served
    // For GitHub pages deployment, it is often '/<projectName>/'
    baseUrl: '/',

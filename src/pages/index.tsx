@@ -15,7 +15,7 @@ export default function Home(): JSX.Element {
    return (
       <Layout
          title={`${siteConfig.title}`}
-         description="Description will go into a meta tag in <head />"
+         description="Chaca documentation website"
       >
          <Toaster />
          <main className="home">

@@ -1,8 +1,10 @@
 .md_api_route {
    display: flex;
    align-items: center;
-   width: 100%;
+   max-width: 100%;
    gap: 0 0.4rem;
+   overflow-x: auto;
+   overflow-y: hidden;
 }
 
 .md_api_route .url {

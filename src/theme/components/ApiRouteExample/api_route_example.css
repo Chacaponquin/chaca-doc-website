@@ -17,6 +17,8 @@
    display: flex;
    align-items: center;
    gap: 0 1rem;
+   max-width: 100%;
+   overflow-x: auto;
 }
 
 .md_api_route_example .request div {
