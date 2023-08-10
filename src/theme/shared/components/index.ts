@@ -1,3 +1,3 @@
-import HttpMethod from './HttpMethod/httpMethod'
+import HttpMethod from './HttpMethod/HttpMethod'
 
 export { HttpMethod }
