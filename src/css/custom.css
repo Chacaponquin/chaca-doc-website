@@ -55,3 +55,7 @@ body {
 pre * {
    font-family: 'JetBrains Bold';
 }
+
+.admonitionHeading_node_modules-\@docusaurus-theme-classic-lib-theme-Admonition-styles-module {
+   font-family: 'Poppins Bold' !important;
+}

@@ -53,23 +53,25 @@ export default function ApiRouteExample({
             </div>
          </div>
 
-         <div className="view-options">
-            <button
-               className={buttonClass('response')}
-               onClick={() => handleChangeOption('response')}
-            >
-               Response
-            </button>
-
-            {body && (
+         {body && (
+            <div className="view-options">
                <button
-                  className={buttonClass('body')}
-                  onClick={() => handleChangeOption('body')}
+                  className={buttonClass('response')}
+                  onClick={() => handleChangeOption('response')}
                >
-                  Body
+                  Response
                </button>
-            )}
-         </div>
+
+               {body && (
+                  <button
+                     className={buttonClass('body')}
+                     onClick={() => handleChangeOption('body')}
+                  >
+                     Body
+                  </button>
+               )}
+            </div>
+         )}
 
          <div className="code">
             <CodeBlock className="language-json">{showCode}</CodeBlock>
