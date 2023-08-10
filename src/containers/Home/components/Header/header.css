@@ -58,6 +58,10 @@
    white-space: nowrap;
 }
 
+[data-theme='dark'] .command_div p {
+   color: white;
+}
+
 .command_div button {
    white-space: nowrap;
    transform: translateY(1.5px);
@@ -65,6 +69,10 @@
 
 .copy_button {
    stroke: var(--gray_strong_color);
+}
+
+[data-theme='dark'] .copy_button {
+   stroke: white;
 }
 
 .check_button {
