@@ -13,6 +13,10 @@
    width: 100%;
 }
 
+[data-theme='dark'] .md_api_route .url {
+   background-color: var(--dark_color_code);
+}
+
 .md_api_route .url code {
    padding: 0;
 }

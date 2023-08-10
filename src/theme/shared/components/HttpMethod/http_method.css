@@ -10,5 +10,5 @@ div.http_method.get {
 }
 
 div.http_method.post {
-   background-color: var(--orange_color);
+   background-color: var(--blue_color);
 }

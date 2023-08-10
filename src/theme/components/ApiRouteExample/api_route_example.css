@@ -9,6 +9,10 @@
    margin-bottom: 1rem;
 }
 
+[data-theme='dark'] .md_api_route_example {
+   background-color: var(--dark_color_code);
+}
+
 .md_api_route_example .request {
    display: flex;
    align-items: center;
