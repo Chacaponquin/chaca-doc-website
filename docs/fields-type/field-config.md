@@ -15,9 +15,10 @@ const mySchema = chaca.schema({
    users: {
       type: schemas.id.uuid(),
       isArray: { min: 1, max: 100 },
-      posibleNull: 20,
+      possibleNull: 20,
    },
 })
+
 ```
 
 ## Config
@@ -35,6 +36,7 @@ Indicates the field type
 type: schemas.id.uuid()
 type: chaca.ref('User.id')
 type: chaca.enum([...values])
+
 ```
 
 ### `isArray`
@@ -45,15 +47,17 @@ Indicates if the field is an array of values of the the selected type
 isArray: true; // The field would be an array with length between 0 and 10
 isArray: { min: 5, max: 10 } // the field would be an array with length between 5 and 10
 isArray: 20 // The field would be an array with length 20
+
 ```
 
-### `posibleNull`
+### `possibleNull`
 
 Indicates the possibility that the field returns `null`
 
 ```js
-posibleNull: true // the field has a 50% chance of being null
+possibleNull: true // the field has a 50% chance of being null
 
 //The number indicates de chance porcent
-posibleNull: 60 // the field has a 60% chance of being null
+possibleNull: 60 // the field has a 60% chance of being null
+
 ```
