@@ -7,6 +7,7 @@ When exporting in this format, a `zip` file will be created with all the classes
 
 Data can only be exported in two ways:
 
+-  A primitive javascript data type
 -  An object with data
 -  An array with similar objects (objects must have the same fields and the values of these fields must belong to the same data type)
 
