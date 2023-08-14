@@ -59,7 +59,7 @@ const config = {
             },
             items: [
                {
-                  to: '/docs/introduction/getting-started',
+                  to: '/docs/guide/getting-started',
                   sidebarId: 'docsSidebar',
                   position: 'left',
                   label: 'Documentation',
@@ -79,7 +79,7 @@ const config = {
                   items: [
                      {
                         label: 'Documentation',
-                        to: '/docs/introduction/getting-started',
+                        to: '/docs/guide/getting-started',
                      },
                   ],
                },
