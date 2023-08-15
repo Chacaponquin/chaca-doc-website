@@ -14,9 +14,9 @@ export default function Check({ size = DEFAULT_ICON_SIZE }: IconProps) {
          <path
             d="M43 11L16.875 37L5 25.1818"
             stroke="inherit"
-            stroke-width="4"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
          />
       </svg>
    )

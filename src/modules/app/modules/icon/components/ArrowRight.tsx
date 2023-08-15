@@ -14,16 +14,16 @@ export default function ArrowRight({ size = DEFAULT_ICON_SIZE }: IconProps) {
          <path
             d="M41.9999 24H5.99994"
             stroke="inherit"
-            stroke-width="4"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
          />
          <path
             d="M30 12L42 24L30 36"
             stroke="inherit"
-            stroke-width="4"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
          />
       </svg>
    )
