@@ -9,6 +9,7 @@ export default function ArrowRight({ size = DEFAULT_ICON_SIZE }: IconProps) {
          height={size}
          viewBox="0 0 48 48"
          fill="none"
+         className="app_icon"
          xmlns="http://www.w3.org/2000/svg"
       >
          <path

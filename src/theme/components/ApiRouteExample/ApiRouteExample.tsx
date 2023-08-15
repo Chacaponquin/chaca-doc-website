@@ -21,12 +21,17 @@ export default function ApiRouteExample({
    code = '',
    body,
 }: ApiRouteExampleProps) {
-   const [showCode, setShowCode] = useState(JSON.stringify(code))
+   const [showCode, setShowCode] = useState(
+      typeof code === 'string' ? code : JSON.stringify(code)
+   )
    const [selectedOption, setSelectedOption] = useState<Options>('response')
 
    useEffect(() => {
       if (selectedOption === 'response') {
-         const c = beautify.js(JSON.stringify(code), {})
+         const c = beautify.js(
+            typeof code === 'string' ? String(code) : JSON.stringify(code),
+            {}
+         )
          setShowCode(c)
       } else if (selectedOption === 'body') {
          const c = beautify.js(JSON.stringify(body))

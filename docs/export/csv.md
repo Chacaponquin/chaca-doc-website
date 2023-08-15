@@ -61,3 +61,7 @@ id,username,image
 :::danger You can't export complex data
 Until this version in CSV format, it is not possible to export complex data such as arrays or objects as field values.
 :::
+
+:::info
+If the data of several schemas are exported, a `zip` file will be created with several `csv` files with the content of each of the schemas
+:::

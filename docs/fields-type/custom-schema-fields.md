@@ -8,9 +8,9 @@ chaca.schemaField(name, fieldFunction)
 
 ## Params
 
-|     Param     |   Type   | Description                                      |
-| :-----------: | :------: | :----------------------------------------------- |
-|     name      |  string  | schema field name. **Cannot be an empty string** |
-| fieldFunction | function |                                                  |
+|     Param     |   Type   | Description                                                                                         |
+| :-----------: | :------: | :-------------------------------------------------------------------------------------------------- |
+|     name      |  string  | Schema field name. **Cannot be an empty string**                                                    |
+| fieldFunction | function | Function to be executed with the `getValue` method. Receives the arguments in the form of an object |
 
 ## Example

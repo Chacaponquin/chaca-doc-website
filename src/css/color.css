@@ -1,3 +1,7 @@
+.app_color > * {
+   stroke: black;
+}
+
 :root {
    --primary_color: #7d5fff;
    --second_color: #590ce8;
