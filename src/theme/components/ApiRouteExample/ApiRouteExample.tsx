@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import CodeBlock from '@theme/CodeBlock'
 import beautify from 'js-beautify'
 import clsx from 'clsx'
+import siteConfig from '@generated/docusaurus.config'
 
 import './api_route_example.css'
 import { HttpMethod } from '../../shared/components'
@@ -39,7 +40,7 @@ export default function ApiRouteExample({
       }
    }, [selectedOption])
 
-   const showUrl = `http://localhost:8000/${url}`
+   const showUrl = `${siteConfig.customFields.API_URL}/${url}`
 
    const buttonClass = (o: Options): string => {
       return clsx({ selected: o === selectedOption })

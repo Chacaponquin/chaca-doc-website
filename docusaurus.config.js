@@ -1,11 +1,11 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-
 const lightCodeTheme = require('prism-react-renderer/themes/nightOwl')
 const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+   customFields: {
+      API_URL: 'https://chaca-api.onrender.com',
+   },
    title: 'Chaca Docs',
    tagline: 'Dinosaurs are cool',
    favicon: 'img/favicon.ico',
