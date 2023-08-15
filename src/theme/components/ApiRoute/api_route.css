@@ -5,6 +5,7 @@
    gap: 0 0.4rem;
    overflow-x: auto;
    overflow-y: hidden;
+   margin-bottom: 1.3rem;
 }
 
 .md_api_route .url {
