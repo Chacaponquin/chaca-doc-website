@@ -15,7 +15,7 @@ export default function Buttons({
 }) {
    return (
       <div className="header_text_buttons">
-         <Link to={LINKS.FIRST_DOC} target="_blank">
+         <Link to={LINKS.FIRST_DOC}>
             <ButtonPrimary text="Get started" />
          </Link>
 

@@ -10,9 +10,9 @@ export default function Schemas() {
             <h1>Create data schemas with your rules</h1>
 
             <p>
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem,
-               quo? Velit quo ea, fugit eveniet, sequi nesciunt necessitatibus
-               minima vel veniam nostrum est. Doloremque, totam libero!
+               Chaca was designed so that you can create datasets defined with
+               your own business rules and they can be reused, generated and
+               exported for later use.
             </p>
          </div>
 

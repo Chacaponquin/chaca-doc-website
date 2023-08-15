@@ -9,7 +9,7 @@ export default function Api() {
    return (
       <section className="adventage_section">
          <div className="adventage_text">
-            <h1>Use owr api rest</h1>
+            <h1>Use our REST API</h1>
 
             <p>
                Don't worry, if you want to use our features without having to
@@ -17,7 +17,7 @@ export default function Api() {
                API to create schemas and with your rules
             </p>
 
-            <LinkButton link={LINKS.API_DOC} text={'See Api docs'} />
+            <LinkButton link={LINKS.API_DOC} text={'See API docs'} />
          </div>
 
          <div className="api_adventage_image adventage_asset_section">

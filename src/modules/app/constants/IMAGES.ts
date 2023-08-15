@@ -12,6 +12,7 @@ export const APP_IMAGES = {
       TYPESCRIPT: { src: '/img/export_ext/ts.png', alt: 'typescript' },
       JAVASCRIPT: { src: '/img/export_ext/js.png', alt: 'javascript' },
       YAML: { src: '/img/export_ext/yaml.png', alt: 'yaml' },
+      PYTHON: { src: '/img/export_ext/python.png', alt: 'python' },
    },
 
    SCHEMA_CODE: { src: '/img/schema_code.png', alt: 'Chaca Schema Code' },

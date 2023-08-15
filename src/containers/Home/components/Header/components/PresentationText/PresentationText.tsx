@@ -8,8 +8,8 @@ export default function PresentationText() {
          </div>
 
          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit,
-            minima?
+            Generate and export mock data datasets with your rules for your test
+            or development environment
          </p>
       </Fragment>
    )
