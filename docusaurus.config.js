@@ -67,7 +67,7 @@ const config = {
                {
                   position: 'right',
                   type: 'html',
-                  value: `<a href="https://github.com/Chacaponquin/chaca"><button class='navbar_button'><p>Github</p></button></a>`,
+                  value: `<a class='navbar_button' href="https://github.com/Chacaponquin/chaca"><button><p>Github</p></button></a>`,
                },
             ],
          },
