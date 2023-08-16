@@ -3,14 +3,13 @@
 If none of the [defined options](/docs/category/schemas) are useful you can create your own schemas with the schemaField method.
 
 ```js
-chaca.schemaField(name, fieldFunction)
+chaca.schemaField(fieldFunction)
 ```
 
 ## Params
 
 |     Param     |   Type   | Description                                                                                          |
 | :-----------: | :------: | :--------------------------------------------------------------------------------------------------- |
-|     name      |  string  | Schema field name. **Cannot be an empty string**                                                     |
 | fieldFunction | function | Function to be executed with the `getValue` method. Receives an object with configuration parameters |
 
 ## Example
@@ -24,7 +23,7 @@ With the predefined schemas in Chaca there is no way to achieve this result for 
 ```js
 import { chaca } from 'chaca'
 
-const customId = chaca.schemaField('customId', () => {
+const customId = chaca.schemaField(() => {
    return chaca.utils.replaceSymbols('T######')
 })
 
@@ -38,7 +37,7 @@ In the above code, a schema field is created that uses the `replaceSymbols` util
 ```js
 import { chaca } from 'chaca'
 
-const customId = chaca.schemaField('customId', () => {
+const customId = chaca.schemaField(() => {
    return chaca.utils.replaceSymbols('T######')
 })
 
@@ -53,7 +52,7 @@ const mySchema = chaca.schema({
 As explained before, the function receives an object with the arguments. For this case, a `firstLetter` parameter will be created that will indicate the letter with which the string will start.
 
 ```js
-const customId = chaca.schemaField('customId', ({ firstLetter }) => {
+const customId = chaca.schemaField(({ firstLetter }) => {
    return chaca.utils.replaceSymbols(`${firstLetter}######`)
 })
 
