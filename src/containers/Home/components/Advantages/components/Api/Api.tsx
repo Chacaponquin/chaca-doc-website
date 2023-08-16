@@ -17,7 +17,7 @@ export default function Api() {
                API to create schemas and with your rules
             </p>
 
-            <LinkButton link={LINKS.API_DOC} text={'See API docs'} />
+            <LinkButton link={LINKS.API_DOC} text={'See REST API docs'} />
          </div>
 
          <div className="api_adventage_image adventage_asset_section">

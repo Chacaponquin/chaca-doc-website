@@ -8,26 +8,26 @@ Data can only be exported in two ways:
 
 -  An array with similar objects (objects must have the same fields)
 
-```js
-// ✅ correct
-await chaca.export([
-   { id: 1, name: 'Amaya' },
-   { id: 2, name: 'Jose' },
-   { id: 3, name: 'Hector' },
-])
+   ```js
+   // ✅ correct
+   await chaca.export([
+      { id: 1, name: 'Amaya' },
+      { id: 2, name: 'Jose' },
+      { id: 3, name: 'Hector' },
+   ])
 
-// ❌ wrong
-await chaca.export([
-   { id: 1, name: 'Amaya' },
-   { id: 2, name: 'Jose' },
-   {
-      id: 3,
-      name: 'Hector',
-      // this field does not exists in other objects
-      image: 'https://pixabay.com/get/gced34cca12f5b9cb12e765ebc87a3be51118a7437a87d4636caa28a26ae72d433b2554e104ca79735997400b3fa19634c943d6d63cf5b9e7be93b525d459d86e_1280.jpg',
-   },
-])
-```
+   // ❌ wrong
+   await chaca.export([
+      { id: 1, name: 'Amaya' },
+      { id: 2, name: 'Jose' },
+      {
+         id: 3,
+         name: 'Hector',
+         // this field does not exists in other objects
+         image: 'https://pixabay.com/get/gced34cca12f5b9cb12e765ebc87a3be51118a7437a87d4636caa28a26ae72d433b2554e104ca79735997400b3fa19634c943d6d63cf5b9e7be93b525d459d86e_1280.jpg',
+      },
+   ])
+   ```
 
 -  An object with data
 

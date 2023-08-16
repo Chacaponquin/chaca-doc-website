@@ -18,9 +18,10 @@ const userSchema = chaca.schema({
 
 await userSchema.generateAndExport({
    filaName: 'data',
-   format: 'javascript',
+   format: 'python',
    location: 'folder',
 })
+
 ```
 
 For example, if we have this schema, we generate 5 documents and export them in **python** format, we will obtain the following result
@@ -74,4 +75,5 @@ data = [
         ],
     },
 ]
+
 ```
