@@ -7,7 +7,7 @@ const config = {
       API_URL: 'https://chaca-api.onrender.com',
    },
    title: 'Chaca Docs',
-   tagline: 'Dinosaurs are cool',
+   tagline: 'Create and export mock data with your rules',
    favicon: 'img/favicon.ico',
 
    url: 'https://chaca-doc.vercel.app/',
@@ -33,10 +33,8 @@ const config = {
          ({
             docs: {
                sidebarPath: require.resolve('./sidebars.js'),
-               // Please change this to your repo.
-               // Remove this to remove the "edit this page" links.
                editUrl:
-                  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                  'https://github.com/Chacaponquin/chaca-doc-website/tree/dev',
             },
             theme: {
                customCss: require.resolve('./src/css/custom.css'),

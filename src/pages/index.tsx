@@ -15,7 +15,7 @@ export default function Home(): JSX.Element {
    return (
       <Layout
          title={`${siteConfig.title}`}
-         description="Chaca documentation website"
+         description="Create and export mock data with your rules"
       >
          <Toaster />
          <main className="home">
